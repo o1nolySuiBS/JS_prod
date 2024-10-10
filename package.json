@@ -1,0 +1,8 @@
+{
+  "name": "ShopyProj",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "javascript": "^1.0.0"
+  }
+}

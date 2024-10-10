@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden; /* Забороняє горизонтальний скрол */
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    width: 100vw;
+}
+
+.pageOne {
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.banner {
+    background-color: #1B2F76;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s ease;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    width: 100vw;
+}
+
+.close-banner {
+    position: absolute;
+    right: 180px;
+    bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.firstHeader {
+    height: 84px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.Logo {
+    width: 12.188vw;
+    height: 51px;
+    padding-left: 170px;
+    padding-top: 16px;
+}
+
+.Info {
+    padding-left: 25px;
+    color: #1B2F76;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.Richmond {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+.Vector {
+    padding-right: 5px;
+    width: 0.48vw;
+    height: 14px;
+}
+
+.secondVector {
+    width: 10px;
+    height: 13px;
+    padding-left: 6px;
+}
+
+.searchDiv {
+    margin-left: auto; /* Вирівнює по правому краю */
+    margin-bottom: 20px;
+    margin-top: 19px;
+    border-radius: 15px;
+    background-color: #1B2F760D;
+    width: 361px; /* Встановлюємо ширину 361px */
+    height: 45px;
+    display: flex;
+    align-items: center; /* Вирівнює вертикально по центру */
+    padding-right: 10px; /* Залишає місце для кнопки */
+}
+
+.searchInput {
+    background: none;
+    width: 100%; /* Використовуємо 100% ширини контейнера */
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.searchButton {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #1B2F76;
+    border-radius: 15px;
+    width: 3vw;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon {
+    padding: 0;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+    width: 0.8vw;
+    height: 16px;
+}
+
+.cartDiv {
+    display: flex; /* Додає флекс-стилі для вирівнювання */
+    justify-content: flex-end; /* Вирівнює до правого краю */
+    align-items: center;
+    padding: 8px 0; /* Вирівнює вгору та вниз */
+    margin-right: 173px; /* Відстань від правого краю */
+}
+
+.Cart {
+    width: 5vw;
+    height: 73px;
+}
