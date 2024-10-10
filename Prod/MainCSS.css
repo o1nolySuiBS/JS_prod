@@ -212,10 +212,11 @@ a {
 }
 
 a:hover {
-    color: rgba(27, 47, 118, 0.75);
+    color: rgba(27, 47, 118, 0.56);
     cursor: pointer;
     transition: color 0.5s ease;
 }
+
 .close-banner {
     transition: color 0.3s ease;
 }
@@ -223,6 +224,7 @@ a:hover {
 .close-banner:hover {
     color: rgb(238, 237, 237);
 }
+
 .schoolBlock {
     display: flex;
     align-items: center;
@@ -230,15 +232,17 @@ a:hover {
     width: 50%;
     margin-right: 20px;
 }
-.backToSchool{
+
+.backToSchool {
     font-size: 13.5px;
     color: rgba(27, 47, 118, 0.75);
     font-weight: bold;
     margin-right: 70px;
 }
-.clearance{
+
+.clearance {
     font-size: 13.5px;
-    color:#BF002D;
+    color: #BF002D;
     font-weight: bold;
     margin-right: 105px;
 }

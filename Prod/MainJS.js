@@ -25,7 +25,7 @@ CloseBanner.onclick = function (event) {
     CloseBanner.style.display = 'none';
 }
 
-const header = document.createElement('div')
+const header = document.createElement('header')
 header.className = 'header'
 
 const firstHeader = document.createElement('div')
@@ -64,7 +64,6 @@ Cart.alt = 'cart'
 const cartDiv = document.createElement('div')
 cartDiv.className = 'cartDiv'
 cartDiv.appendChild(Cart)
-
 
 
 firstHeader.append(searchDiv, cartDiv)
