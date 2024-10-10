@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden; /* Забороняє горизонтальний скрол */
+    overflow-x: hidden;
 }
 
 .mainPage {
@@ -101,21 +101,21 @@ body {
 }
 
 .searchDiv {
-    margin-left: auto; /* Вирівнює по правому краю */
+    margin-left: auto;
     margin-bottom: 20px;
     margin-top: 19px;
     border-radius: 15px;
     background-color: #1B2F760D;
-    width: 361px; /* Встановлюємо ширину 361px */
+    width: 361px;
     height: 45px;
     display: flex;
-    align-items: center; /* Вирівнює вертикально по центру */
-    padding-right: 10px; /* Залишає місце для кнопки */
+    align-items: center;
+    padding-right: 10px;
 }
 
 .searchInput {
     background: none;
-    width: 100%; /* Використовуємо 100% ширини контейнера */
+    width: 100%;
     outline: none;
     border-color: transparent;
     cursor: pointer;
@@ -146,14 +146,67 @@ body {
 }
 
 .cartDiv {
-    display: flex; /* Додає флекс-стилі для вирівнювання */
-    justify-content: flex-end; /* Вирівнює до правого краю */
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    padding: 8px 0; /* Вирівнює вгору та вниз */
-    margin-right: 173px; /* Відстань від правого краю */
+    padding: 8px 0;
+    margin-right: 173px;
 }
 
 .Cart {
     width: 5vw;
     height: 73px;
+}
+.productPanel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.productHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #1B2F76;
+    color: white;
+}
+
+.productList {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.product {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#closeButton {
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    color: rgba(25, 69, 255, 0.35);
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.deleteButton:hover {
+    text-decoration: underline;
 }
