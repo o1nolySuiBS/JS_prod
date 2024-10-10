@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden; /* Забороняє горизонтальний скрол */
+    overflow-x: hidden;
 }
 
 .mainPage {
@@ -28,11 +28,12 @@ body {
     font-family: 'Lato', sans-serif;
     position: relative;
     width: 100vw;
+    font-size: 14px;
 }
 
 .close-banner {
     position: absolute;
-    right: 180px;
+    right: 177px;
     bottom: 10px;
     color: white;
     text-decoration: none;
@@ -44,14 +45,17 @@ body {
     height: 84px;
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 96vw;
+    border-bottom: 1px solid rgb(238, 237, 237);
+    margin: 0 2vw;
 }
 
 .Logo {
-    width: 12.188vw;
+    width: 234px;
     height: 51px;
-    padding-left: 170px;
+    padding-left: 169px;
     padding-top: 16px;
+    padding-bottom: 17px;
 }
 
 .Info {
@@ -63,17 +67,21 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 200px;
+
 }
+
 
 .time {
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
+    padding-left: 49px;
 }
 
 .Richmond {
@@ -89,6 +97,7 @@ body {
 }
 
 .Vector {
+    padding-left: 55px;
     padding-right: 5px;
     width: 0.48vw;
     height: 14px;
@@ -101,26 +110,27 @@ body {
 }
 
 .searchDiv {
-    margin-left: auto; /* Вирівнює по правому краю */
     margin-bottom: 20px;
     margin-top: 19px;
     border-radius: 15px;
     background-color: #1B2F760D;
-    width: 361px; /* Встановлюємо ширину 361px */
+    width: 361px;
     height: 45px;
     display: flex;
-    align-items: center; /* Вирівнює вертикально по центру */
-    padding-right: 10px; /* Залишає місце для кнопки */
+    align-items: center;
+    padding-right: 10px;
+    margin-left: 380px;
 }
 
 .searchInput {
     background: none;
-    width: 100%; /* Використовуємо 100% ширини контейнера */
+    width: 100%;
     outline: none;
     border-color: transparent;
     cursor: pointer;
     border-radius: 15px;
     padding-left: 15px;
+
 }
 
 .searchButton {
@@ -136,6 +146,7 @@ body {
     align-items: center;
 }
 
+
 .searchIcon {
     padding: 0;
     outline: none;
@@ -145,15 +156,89 @@ body {
     height: 16px;
 }
 
+
 .cartDiv {
-    display: flex; /* Додає флекс-стилі для вирівнювання */
-    justify-content: flex-end; /* Вирівнює до правого краю */
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    padding: 8px 0; /* Вирівнює вгору та вниз */
-    margin-right: 173px; /* Відстань від правого краю */
+    padding: 8px 0;
+    margin-right: 143px;
 }
 
 .Cart {
     width: 5vw;
     height: 73px;
+    padding-left: 12px;
+}
+
+.secondHeader {
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    border-bottom-left-radius: 18.88px;
+    border-bottom-right-radius: 18.88px;
+}
+
+.sleepFurniture {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 140px;
+    margin-right: 1vw;
+}
+
+.sleepFurniture div {
+    flex: 1;
+    text-align: center;
+    font-size: 13.5px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 2px;
+}
+
+.sleepFurniture div a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sleepFurniture div:hover a {
+    color: rgba(27, 47, 118, 0.68);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgba(27, 47, 118, 0.75);
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+.close-banner {
+    transition: color 0.3s ease;
+}
+
+.close-banner:hover {
+    color: rgb(238, 237, 237);
+}
+.schoolBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 20px;
+}
+.backToSchool{
+    font-size: 13.5px;
+    color: rgba(27, 47, 118, 0.75);
+    font-weight: bold;
+    margin-right: 70px;
+}
+.clearance{
+    font-size: 13.5px;
+    color:#BF002D;
+    font-weight: bold;
+    margin-right: 105px;
 }

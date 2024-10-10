@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitIgnore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prod/MainCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prod/MainHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prod/MainJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopyProj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="firstHeader done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/MainCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/MainCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/MainJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/MainJS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="&amp;" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -80,6 +78,7 @@
       <updated>1728539056460</updated>
       <workItem from="1728539057656" duration="1912000" />
       <workItem from="1728541001612" duration="16307000" />
+      <workItem from="1728575499623" duration="6601000" />
     </task>
     <servers />
   </component>

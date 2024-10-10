@@ -71,12 +71,27 @@ firstHeader.append(searchDiv, cartDiv)
 
 const secondHeader = document.createElement('div')
 secondHeader.className = 'secondHeader'
+
+const sleepFurniture = document.createElement('div')
+sleepFurniture.className = 'sleepFurniture'
+sleepFurniture.innerHTML = `
+    <div class="furnitureBlock"><a href="#">MATTRESSES</a></div>
+    <div><a href="#">ADJUSTABLE BASES</a></div>
+    <div><a href="#">PILLOWS</a></div>
+    <div><a href="#">BEDDING</a></div>
+    <div><a href="#">SLEEP FURNITURE</a></div>
+`;
+
+const schoolBlock = document.createElement('div');
+schoolBlock.className = 'schoolBlock';
+schoolBlock.innerHTML = `
+    <div class="backToSchool"><a href="#">BACK TO SCHOOL SALE</a></div>
+    <div class="clearance"><a href="#">CLEARANCE</a></div>
+`;
+
+
+secondHeader.append(sleepFurniture, schoolBlock)
 header.appendChild(secondHeader)
-
-
-
-
-
 pageOne.appendChild(header);
 document.body.appendChild(mainPage);
 
