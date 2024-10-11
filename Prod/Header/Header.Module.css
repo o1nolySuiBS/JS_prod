@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+    transition: background-color 0.3s ease;
+    background-color: #F4F5F8;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.3s ease;
+
+    &.fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .firstHeader {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        width: 96vw;
+        border-bottom: 1px solid rgb(238, 237, 237);
+        margin: 0 2vw;
+        .Logo {
+            width: 20vw;
+            padding-left: 10%;
+        }
+        .Info {
+            padding-left: 1vw;
+            color: #1B2F76;
+            display: flex;
+            flex-direction: column;
+            width: 15vw;
+            font-size: 0.2vw;
+            .time {
+                font-size: 2vh;
+                margin: 0;
+                color: black;
+                padding-left: 0.5vw;
+            }
+
+            .Richmond {
+                margin: 0.1vw 0.1vw 0.1vw 0.5vw;
+                font-size: 2vh;
+                font-weight: bold;
+            }
+            .Vector{
+                height: 2vh;
+            }
+            .secondVector{
+                height: 1.5vh;
+            }
+        }
+
+        .searchDiv {
+            border-radius: 15px;
+            background-color: rgba(27, 47, 118, 0.05);
+            width: 30vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            padding-right: 2vw;
+            margin-left: 25vw;
+
+            .searchInput {
+                background: none;
+                width: 100%;
+                outline: none;
+                border: none;
+                border-radius: 15px;
+                padding-left: 1vw;
+                font-size: 1vw;
+            }
+
+            .searchButton {
+                border: none;
+                padding: 0;
+                cursor: pointer;
+                color: #1B2F76;
+                border-radius: 15px;
+                width: 3vw;
+                background: none;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                height: 5vh;
+            }
+        }
+
+        .cartDiv {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            margin-right: 5%;
+            width: 5vw;
+
+            .Cart {
+                max-width: 5vw;
+                height: auto;
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+.banner {
+    background-color: #1B2F76;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s ease;
+    height: 4vh;
+    width: 100vw;
+    position: relative;
+    font-size: 1vw;
+
+    .close-banner {
+        position: absolute;
+        right: 5%;
+        bottom: 0.4vw;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 0.1s ease;
+        font-size: 1.2vw;
+        &:hover {
+            color: rgb(238, 237, 237);
+        }
+    }
+}
+
+.secondHeader {
+    display: flex;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    .sleepFurniture {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        margin-left: 8% ;
+        font-size: 13.5px;
+        .div {
+            text-align: center;
+
+
+            .a {
+                text-decoration: none;
+                color: inherit;
+
+                &:hover {
+                    color: rgba(27, 47, 118, 0.68);
+                }
+            }
+        }
+    }
+
+    .schoolBlock {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+        margin-right: 20px;
+
+        .backToSchool,
+        .clearance {
+            font-size: 13.5px;
+            font-weight: bold;
+            margin-right: 70px;
+        }
+
+        .backToSchool {
+            color: rgba(27, 47, 118, 0.75);
+        }
+
+        .clearance {
+            color: #BF002D;
+            transition: box-shadow 0.1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        cursor: pointer;
+        transition: color 0.5s ease;
+    }
+}

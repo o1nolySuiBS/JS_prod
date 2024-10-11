@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="Header done">
-      <change afterPath="$PROJECT_DIR$/svg/Cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/SearchButton.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/ShopLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/Vector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/VectorSecond.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/MainCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prod/Header/Header.Module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/MainHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/MainHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/MainJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod\Header" />
+      <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod" />
       <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\svg" />
     </key>
   </component>

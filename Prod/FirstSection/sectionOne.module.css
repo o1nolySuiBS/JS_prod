@@ -1,0 +1,101 @@
+.sectionOne {
+    height: 10vh;
+    background-color: #F4F5F8;
+}
+
+.title {
+    height: 35vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10%;
+
+}
+
+.comfort-test-description {
+    color: #1B2F76;
+    font-family: 'Playfair Display', serif;
+    font-size: 8vh;
+    margin-top: 50px;
+}
+
+.comfort-test-info {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 4vh;
+    margin-top: 10px;
+}
+
+
+.infoDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10%;
+    gap: 40px;
+    width: 100vw;
+    height: 70vh;
+}
+
+.photoSection {
+    border-radius: 20px;
+    width: 42vw;
+    height: 67vh;
+}
+
+.photo {
+    border-radius: 20px;
+    width: 42vw;
+    height: 67vh;
+}
+
+
+
+.infoPhoto {
+    padding-left: 4vw;
+
+    height: 67vh;
+    align-items: center;
+    width: 40vw;
+
+    .try-before-you-buy {
+        font-family: Playfair Display, serif;
+        font-style: italic;
+        font-size: 50px;
+
+        font-weight: 400;
+        line-height: 50px;
+        text-align: left;
+    }
+
+    .info {
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+        color: #000;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+    .findStoreBtn {
+        width: 20vw;
+        height: 7.5vh;
+        border-radius: 94.38px;
+        background-color: #1B2F76;
+        color: white;
+        border: none;
+        font-size: 2vh;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .findStoreBtn:hover {
+        background-color: #BF002D;
+    }
+
+}
+
+
