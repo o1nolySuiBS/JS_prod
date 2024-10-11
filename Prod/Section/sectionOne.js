@@ -38,10 +38,36 @@ infoPhoto.innerHTML = `
     </p>
     <button class="findStoreBtn">FIND A STORE NEAR YOU</button>
 `;
+
 infoDiv.appendChild(infoPhoto);
-
-
 sectionOne.appendChild(title);
 sectionOne.appendChild(infoDiv);
 document.body.appendChild(sectionOne);
+
+
+const sectionTwo = document.createElement('section')
+sectionTwo.className = 'sectionTwo'
+
+const secondTitle = document.createElement('div')
+secondTitle.className = 'secondTitle'
+secondTitle.innerHTML = '<h1 class="why-in-store-comfort">Why in-store comfort testing is essential</h1>'
+
+
+const durability = document.createElement('div')
+durability.className = 'durability'
+
+const comfortDiv = document.createElement('div')
+const supportDiv = document.createElement('div')
+const qualityDiv = document.createElement('div')
+durability.append(comfortDiv, supportDiv, qualityDiv)
+
+
+const video = document.createElement('div')
+
+const sectionTwoBtn = document.createElement('div')
+const btn = document.createElement('button')
+
+
+sectionTwo.append(secondTitle, durability, video,)
+document.body.appendChild(sectionTwo)
 

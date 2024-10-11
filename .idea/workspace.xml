@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="Header done">
-      <change afterPath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prod/Header/Header.Module.css" afterDir="false" />
+    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="&#10;scale first header&amp;banner update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Header/Header.Module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.Module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/MainHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/MainHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -102,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728583016128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;scale first header&amp;banner update">
+      <option name="closed" value="true" />
+      <created>1728659366314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728659366314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Header done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header done" />
+    <MESSAGE value="&#10;scale first header&amp;banner update" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;scale first header&amp;banner update" />
   </component>
 </project>

@@ -75,10 +75,10 @@ const sleepFurniture = document.createElement('div');
 sleepFurniture.className = 'sleepFurniture';
 sleepFurniture.innerHTML = `
     <div class="furnitureBlock"><a href="#">MATTRESSES</a></div>
-    <div><a href="#">ADJUSTABLE BASES</a></div>
-    <div><a href="#">PILLOWS</a></div>
-    <div><a href="#">BEDDING</a></div>
-    <div><a href="#">SLEEP FURNITURE</a></div>
+    <div class="blockSleep"><a href="#">ADJUSTABLE BASES</a></div>
+    <div class="blockSleep"><a href="#">PILLOWS</a></div>
+    <div class="blockSleep"><a href="#">BEDDING</a></div>
+    <div class="blockSleep"><a href="#">SLEEP FURNITURE</a></div>
 `;
 
 

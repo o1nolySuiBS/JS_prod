@@ -1,30 +1,31 @@
 .sectionOne {
-    height: 10vh;
     background-color: #F4F5F8;
 }
 
 .title {
-    height: 35vh;
+    height: 25vw;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 10%;
+    margin-left: 10vw;
 
 }
 
 .comfort-test-description {
     color: #1B2F76;
     font-family: 'Playfair Display', serif;
-    font-size: 8vh;
-    margin-top: 50px;
+    font-size: 4vw;
+    margin-top: 5vw;
+    font-weight: 300
 }
 
 .comfort-test-info {
     color: #000;
     font-family: 'Lato', sans-serif;
-    font-size: 4vh;
-    margin-top: 10px;
+    font-size: 2vw;
+    margin-top: -1vw;
+    font-weight: 300
 }
 
 
@@ -32,64 +33,62 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 10%;
-    gap: 40px;
-    width: 100vw;
-    height: 70vh;
+    margin-left: 5vw;
+    height: 40vw;
 }
 
 .photoSection {
-    border-radius: 20px;
+    border-radius: 2vw;
     width: 42vw;
-    height: 67vh;
+    height: 67vw;
+
 }
 
 .photo {
-    border-radius: 20px;
+    border-radius: 2vw;
     width: 42vw;
-    height: 67vh;
+    height: 33vw;
+    margin-left: 5vw;
 }
 
 
-
 .infoPhoto {
-    padding-left: 4vw;
-
-    height: 67vh;
+    padding-left: 7vw;
+    height: 42vw;
     align-items: center;
     width: 40vw;
 
     .try-before-you-buy {
         font-family: Playfair Display, serif;
         font-style: italic;
-        font-size: 50px;
-
+        font-size: 3vw;
         font-weight: 400;
-        line-height: 50px;
         text-align: left;
     }
 
     .info {
         font-family: 'Lato', sans-serif;
-        font-size: 17px;
+        font-size: 1vw;
         color: #000;
-        line-height: 28px;
-        margin-top: 10px;
+        line-height: 2vw;
+        margin-top: 1vw;
+
     }
+
     .findStoreBtn {
-        width: 20vw;
-        height: 7.5vh;
-        border-radius: 94.38px;
+        width: 18vw;
+        height: 3.5vw;
+        border-radius: 3vw;
         background-color: #1B2F76;
         color: white;
         border: none;
-        font-size: 2vh;
+        font-size: 1vw;
         cursor: pointer;
         transition: background-color 0.3s ease;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 2vw;
     }
 
     .findStoreBtn:hover {
@@ -97,5 +96,22 @@
     }
 
 }
+.sectionTwo{
+    background-color: white;
+}
 
-
+.secondTitle{
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10vw;
+}
+.why-in-store-comfort{
+    font-size: 2.5vw;
+    font-family: 'Playfair Display', serif;
+    margin-top: 7vw;
+}
+.durability{
+    height: 30vw;
+}
