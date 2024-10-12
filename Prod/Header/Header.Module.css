@@ -18,13 +18,7 @@ body {
 
     &.fixed {
         position: fixed;
-        top: 0;
-        left: 0;
         width: 100vw;
-        z-index: 1000;
-        background-color: white;
-        border-bottom-left-radius: 2vw;
-        border-bottom-right-radius: 2vw;
     }
 
     .firstHeader {
@@ -46,11 +40,8 @@ body {
             display: flex;
             flex-direction: column;
             width: 15vw;
-            font-size: 0.2vw;
             height: 5vw;
             justify-content: center;
-            align-items: flex-start;
-
 
             .time {
                 font-size: 1.1vw;
@@ -63,21 +54,19 @@ body {
                 font-family: 'Lato', sans-serif;
                 font-size: 1vw;
                 display: flex;
-                justify-content: center;
                 align-items: center;
 
-            }
+                .Vector {
+                    height: 1vw;
+                    width: 1vw;
+                    margin-right: 0.1vw;
+                }
 
-            .Vector {
-                height: 1vw;
-                width: 1vw;
-                margin-right: 0.1vw;
-            }
-
-            .secondVector {
-                height: 0.5vw;
-                width: 1vw;
-                margin-left: 0.2vw;
+                .secondVector {
+                    height: 0.5vw;
+                    width: 1vw;
+                    margin-left: 0.2vw;
+                }
             }
         }
 
@@ -111,11 +100,11 @@ body {
                 justify-content: flex-end;
                 align-items: center;
                 height: 1vw;
-            }
 
-            .searchButton img {
-                height: 1.5vw;
-                width: 2vw;
+                img {
+                    height: 1.5vw;
+                    width: 2vw;
+                }
             }
         }
 
@@ -167,9 +156,6 @@ body {
     height: 4vw;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
-    .blockSleep{
-        margin-left: 3vw;
-    }
 
     .sleepFurniture {
         display: flex;
@@ -179,16 +165,17 @@ body {
         margin-left: 10vw;
         font-size: 1vw;
         font-family: 'Lato', sans-serif;
-        .div {
-            text-align: center;
 
-            .a {
-                text-decoration: none;
-                color: inherit;
+        .blockSleep {
+            margin-left: 3vw;
+        }
 
-                &:hover {
-                    color: rgba(27, 47, 118, 0.68);
-                }
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                color: rgba(27, 47, 118, 0.68);
             }
         }
     }
@@ -199,13 +186,17 @@ body {
         justify-content: flex-end;
         width: 40vw;
 
-
         .backToSchool,
         .clearance {
             font-size: 1vw;
             font-weight: bold;
             margin-right: 3vw;
             font-family: 'Lato', sans-serif;
+
+            &:hover {
+                cursor: pointer;
+                transition: color 0.5s ease;
+            }
         }
 
         .backToSchool {
@@ -230,7 +221,4 @@ a {
         cursor: pointer;
         transition: color 0.5s ease;
     }
-}
-* {
-    box-sizing: border-box;
 }

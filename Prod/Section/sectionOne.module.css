@@ -1,246 +1,224 @@
 .sectionOne {
     background-color: #F4F5F8;
-}
 
-.title {
-    height: 25vw;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 10vw;
-    margin-bottom: 0;
-}
-
-.comfort-test-description {
-    color: #1B2F76;
-    font-family: 'Playfair Display', serif;
-    font-size: 4vw;
-    margin-top: 5vw;
-    font-weight: 300;
-    margin-bottom: 0;
-}
-
-.comfort-test-info {
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 1.8vw;
-}
-
-
-.infoDiv {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 4vw;
-    height: 40vw;
-}
-
-.photoSection {
-    border-radius: 2vw;
-    width: 42vw;
-    height: 67vw;
-
-}
-
-.photo {
-    border-radius: 2vw;
-    width: 42vw;
-    height: 33vw;
-    margin-left: 5vw;
-}
-
-
-.infoPhoto {
-    padding-left: 5vw;
-    height: 42vw;
-    align-items: center;
-    width: 41vw;
-
-    .try-before-you-buy {
-        font-family: Playfair Display, serif;
-        font-style: italic;
-        font-size: 3vw;
-        font-weight: 400;
-        text-align: left;
-    }
-
-    .info {
+    .title {
+        height: 25vw;
         font-family: 'Lato', sans-serif;
-        font-size: 1.1vw;
-        color: #000;
-        line-height: 1.8vw;
-        margin-top: 1vw;
-
-    }
-
-    .findStoreBtn {
-        width: 18vw;
-        height: 3.5vw;
-        border-radius: 3vw;
-        background-color: #1B2F76;
-        color: white;
-        border: none;
-        font-size: 1vw;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 10vw;
+        margin-bottom: 0;
+
+        .comfort-test-description {
+            color: #1B2F76;
+            font-size: 4vw;
+            margin-top: 5vw;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+
+        .comfort-test-info {
+            color: #000;
+            font-weight: 300;
+            font-size: 1.8vw;
+        }
     }
 
-    .findStoreBtn:hover {
-        background-color: #BF002D;
-    }
+    .infoDiv {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 4vw;
+        height: 40vw;
 
+        .photoSection {
+            border-radius: 2vw;
+            width: 42vw;
+            height: 67vw;
+        }
+
+        .photo {
+            border-radius: 2vw;
+            width: 42vw;
+            height: 33vw;
+            margin-left: 5vw;
+        }
+
+        .infoPhoto {
+            padding-left: 5vw;
+            height: 42vw;
+            align-items: center;
+            width: 41vw;
+
+            .try-before-you-buy {
+                font-family: 'Playfair Display', serif;
+                font-style: italic;
+                font-size: 3vw;
+                font-weight: 400;
+                text-align: left;
+            }
+
+            .info {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.1vw;
+                color: #000;
+                line-height: 1.8vw;
+                margin-top: 1vw;
+            }
+
+            .findStoreBtn {
+                width: 18vw;
+                height: 3.5vw;
+                border-radius: 3vw;
+                background-color: #1B2F76;
+                color: white;
+                border: none;
+                font-size: 1vw;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 2vw;
+
+                &:hover {
+                    background-color: #BF002D;
+                }
+            }
+        }
+    }
 }
+
 .sectionTwo {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.secondTitle {
-    height: 15vw;
-    display: flex;
-    width: 90vw;
-    padding-left: 5vw;
-}
+    .secondTitle {
+        height: 15vw;
+        display: flex;
+        width: 90vw;
+        padding-left: 5vw;
 
-.why-in-store-comfort {
-    font-size: 2.5vw;
-    font-family: 'Playfair Display', serif;
-    margin-top: 5vw;
-    font-weight: 300;
-}
-
-.durability {
-    display: flex;
-    justify-content: space-between;
-    width: 90vw;
-    height: 20vw;
-    margin-top: 2vw;
-    padding-left: 5vw;
-}
-
-.comfortDiv {
-    width: 33vw;
-    height: 20vw;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding-right: 2vw;
-    .like {
-        width: 4vw;
-        height: 4vw;
-        margin-bottom: 1vw;
+        .why-in-store-comfort {
+            font-size: 2.5vw;
+            font-family: 'Playfair Display', serif;
+            margin-top: 5vw;
+            font-weight: 300;
+        }
     }
-    .comfortTitle {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.4vw;
-        color: #1B2F76;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
+
+    .durability {
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        height: 20vw;
+        margin-top: 2vw;
+        padding-left: 5vw;
+
+        .comfortDiv {
+            width: 33vw;
+            height: 20vw;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding-right: 2vw;
+
+            .like {
+                width: 4vw;
+                height: 4vw;
+                margin-bottom: 1vw;
+            }
+
+            .comfortTitle {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.4vw;
+                color: #1B2F76;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+            }
+
+            .by-testing-a-matters {
+                font-size: 1.1vw;
+                font-family: 'Lato', sans-serif;
+                line-height: 1.8vw;
+            }
+        }
+
+        .supportDiv {
+            width: 33vw;
+            height: 20vw;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 0 2vw;
+            border-left: 0.1vw solid #1B2F76;
+            border-right: 0.1vw solid #1B2F76;
+
+            .bed {
+                width: 5vw;
+                height: 4vw;
+                margin-bottom: 1vw;
+            }
+
+            .supportTitle {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.4vw;
+                color: #1B2F76;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+            }
+
+            .in-store-testing-allow {
+                font-size: 1.1vw;
+                font-family: 'Lato', sans-serif;
+                line-height: 1.8vw;
+            }
+        }
+
+        .qualityDiv {
+            width: 30vw;
+            height: 20vw;
+            padding-left: 2vw;
+            .medal {
+                width: 4vw;
+                height: 4vw;
+                margin-bottom: 1vw;
+            }
+
+            .qualityTitle {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.4vw;
+                color: #1B2F76;
+                margin-top: 1vw;
+                margin-bottom: 1.5vw;
+            }
+
+            .it-allows-you-to-assess {
+                font-size: 1.1vw;
+                font-family: 'Lato', sans-serif;
+                line-height: 1.8vw;
+            }
+        }
     }
-    .by-testing-a-matters {
-        font-size: 1.1vw;
-        font-family: 'Lato', sans-serif;
-        line-height: 1.8vw;
+
+    .video {
+
     }
-}
+
+    .sectionTwoBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .button {
 
 
-
-.supportDiv {
-    width: 33vw;
-    height: 20vw;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 0 2vw;
-    border-left: 0.1vw solid #1B2F76;
-    border-right: 0.1vw solid #1B2F76;
-    .bed {
-        width: 5vw;
-        height: 4vw;
-        margin-bottom: 1vw;
+        &:hover {
+            background-color: #BF002D;
+        }
+        }
     }
-    .supportTitle {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.4vw;
-        color: #1B2F76;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-    }
-    .in-store-testing-allow {
-        font-size: 1.1vw;
-        font-family: 'Lato', sans-serif;
-        line-height: 1.8vw;
-    }
-}
-
-
-
-.qualityDiv {
-    width: 30vw;
-    height: 20vw;
-    margin-left: 2vw;
-    .medal{
-        width: 4vw;
-        height: 4vw;
-        margin-bottom: 1vw;
-    }
-    .qualityTitle{
-        font-family: 'Lato', sans-serif;
-        font-size: 1.4vw;
-        color: #1B2F76;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-    }
-    .it-allows-you-to-assess{
-        font-size: 1.1vw;
-        font-family: 'Lato', sans-serif;
-        line-height: 1.8vw;
-    }
-}
-.video {
-
-
-}
-
-.video a {
-
-}
-
-.sectionTwoBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.sectionTwoBtn button {
-
-}
-
-.sectionTwoBtn button:hover {
-    background-color: #BF002D;
-}
-
-.sectionTwoBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.sectionTwoBtn button {
-
-}
-
-.sectionTwoBtn button:hover {
-    background-color: #BF002D;
 }
