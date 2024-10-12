@@ -95,18 +95,18 @@ body {
                 border: none;
                 cursor: pointer;
                 color: #1B2F76;
-                border-radius: 0.3vw;
                 width: 3vw;
                 background: none;
                 height: 1vw;
-                padding-right: 1vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .img {
-                    height: 2vw;
-                    width: 2vw;
 
+
+                .searchIcon {
+                    height: 1.5vw;
+                    width: 1.5vw;
+                    padding-right: 0.5vw;
                 }
             }
         }

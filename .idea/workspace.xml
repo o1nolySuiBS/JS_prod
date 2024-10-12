@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="done ver: 1.5 оптимізація + нестед">
+    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="done ver: 2 оптимізація секцій">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/Header/Header.Module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.Module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728712082412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done ver: 2 оптимізація секцій">
+      <option name="closed" value="true" />
+      <created>1728712726976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728712726976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +164,7 @@
     <MESSAGE value="section two" />
     <MESSAGE value="done ver: 1.0" />
     <MESSAGE value="done ver: 1.5 оптимізація + нестед" />
-    <option name="LAST_COMMIT_MESSAGE" value="done ver: 1.5 оптимізація + нестед" />
+    <MESSAGE value="done ver: 2 оптимізація секцій" />
+    <option name="LAST_COMMIT_MESSAGE" value="done ver: 2 оптимізація секцій" />
   </component>
 </project>
