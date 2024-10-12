@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="&#10;scale first header&amp;banner update">
+    <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="section two">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/FirstSection/sectionOne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/Header/Header.Module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.Module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/MainHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/MainHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "o1nolySuiBS"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1249f95a-cbf4-42e4-8d09-49d96ed2aad2" />
+        <option name="url" value="https://github.com/o1nolySuiBS/JS_prod" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728659366314</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="section two">
+      <option name="closed" value="true" />
+      <created>1728667392772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728667392772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Header done" />
     <MESSAGE value="&#10;scale first header&amp;banner update" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;scale first header&amp;banner update" />
+    <MESSAGE value="section two" />
+    <option name="LAST_COMMIT_MESSAGE" value="section two" />
   </component>
 </project>

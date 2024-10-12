@@ -57,17 +57,44 @@ const durability = document.createElement('div')
 durability.className = 'durability'
 
 const comfortDiv = document.createElement('div')
+comfortDiv.className ='comfortDiv'
+comfortDiv.innerHTML ='<img class="like" src="../svg/Like.svg" alt="like">' +
+    '<h5 class="comfortTitle">PERSONAL COMFORT<br/>AND PREFERENCE</h5>' +
+    '<p class="by-testing-a-matters">By testing a mattress in-store, you can experience ' +
+    'firsthand how it feels under your body\'s weight' +
+    ' and pressure points, and assess whether it aligns ' +
+    'with your specific comfort needs.</p>'
+
+
 const supportDiv = document.createElement('div')
+supportDiv.className = 'supportDiv'
+supportDiv.innerHTML ='<img class="bed" src="../svg/bed.svg" alt="bed">' +
+    '<h5 class="supportTitle">BODY SUPPORT<br/>AND ALIGMENT</h5>' +
+    '<p class="in-store-testing-allow">In-store testing allows you to gauge whether the mattress provides proper body support and spinal alignment – which is specially important in case of medical conditions or sleep posture concerns.</p>'
+
+
 const qualityDiv = document.createElement('div')
+qualityDiv.className='qualityDiv'
+qualityDiv.innerHTML ='<img class="medal" src="../svg/quality.svg" alt="quality">' +
+    '<h5 class="qualityTitle">QUALITY AND<br/>DURABILITY</h5>' +
+    '<p class="it-allows-you-to-assess">It allows you to assess the mattress’ firmness and ' +
+    'durability, helping you make an informed decision ' +
+    'on whether it will maintain its quality over time ' +
+    'and if it is a good long-term investment.</p>'
+
+
+
+
 durability.append(comfortDiv, supportDiv, qualityDiv)
 
 
 const video = document.createElement('div')
 
-const sectionTwoBtn = document.createElement('div')
-const btn = document.createElement('button')
-
-
-sectionTwo.append(secondTitle, durability, video,)
+// const sectionTwoBtn = document.createElement('div')
+// const btn = document.createElement('button')
+//
+//
+// sectionTwoBtn.appendChild(btn)
+sectionTwo.append(secondTitle, durability, video)
 document.body.appendChild(sectionTwo)
 
