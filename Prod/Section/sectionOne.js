@@ -7,7 +7,7 @@ const title = createElement('span', { className: 'title', innerHTML: `
 
 const infoDiv = createElement('div', { className: 'infoDiv' });
 
-const photoSection = createElement('img', { className: 'photo', src: '../Prod/svg/photoSection.png', alt: 'photo' });
+const photoSection = createElement('img', { className: 'photo', src: './svg/photoSection.png', alt: 'photo' });
 infoDiv.appendChild(photoSection);
 
 
@@ -37,7 +37,7 @@ const secondTitle = createElement('span', { className: 'secondTitle', innerHTML:
 const durability = createElement('div', { className: 'durability' });
 
 const comfortDiv = createElement('div', { className: 'comfortDiv', innerHTML: `
-    <img class="like" src="../Prod/svg/Like.svg" alt="like">
+    <img class="like" src="./svg/Like.svg" alt="like">
     <h5 class="comfortTitle">PERSONAL COMFORT<br/>AND PREFERENCE</h5>
     <p class="by-testing-a-matters">
         By testing a mattress in-store, you can experience firsthand how it feels under your body's weight and pressure points,
@@ -46,7 +46,7 @@ const comfortDiv = createElement('div', { className: 'comfortDiv', innerHTML: `
 ` });
 
 const supportDiv = createElement('div', { className: 'supportDiv', innerHTML: `
-    <img class="bed" src="../Prod/svg/bed.svg" alt="bed">
+    <img class="bed" src="./svg/bed.svg" alt="bed">
     <h5 class="supportTitle">BODY SUPPORT<br/>AND ALIGNMENT</h5>
     <p class="in-store-testing-allow">
         In-store testing allows you to gauge whether the mattress provides proper body support and spinal alignment,
@@ -55,7 +55,7 @@ const supportDiv = createElement('div', { className: 'supportDiv', innerHTML: `
 ` });
 
 const qualityDiv = createElement('div', { className: 'qualityDiv', innerHTML: `
-    <img class="medal" src="../Prod/svg/quality.svg" alt="quality">
+    <img class="medal" src="./svg/quality.svg" alt="quality">
     <h5 class="qualityTitle">QUALITY AND<br/>DURABILITY</h5>
     <p class="it-allows-you-to-assess">
         It allows you to assess the mattress’ firmness and durability, helping you make an informed decision
