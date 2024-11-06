@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    transition: background-color 0.3s ease;
     background-color: #F4F5F8;
 }
 
@@ -8,124 +7,99 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1000;
-    background-color: white;
-    border-bottom-left-radius: 2vw;
-    border-bottom-right-radius: 2vw;
-    transition: all 0.3s ease;
     margin: 0;
-    border-bottom: 0.1vw solid rgb(238, 237, 237);
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: 2px solid rgb(238, 237, 237);
 
-    &.fixed {
-        position: fixed;
-        width: 100vw;
-    }
 
     .firstHeader {
-        height: 5vw;
         display: flex;
         align-items: center;
-        border-bottom: 0.1vw solid rgb(238, 237, 237);
-        margin: 0 2vw;
+        width: 100%;
+        height: 70px;
+        min-width: 100%;
 
         .Logo {
-            width: 23vw;
-            padding-left: 5vw;
-            height: 4vw;
+            width: 15%;
+            margin-left: 100px;
         }
 
         .Info {
-            padding-left: 2vw;
+            width: 15%;
+            font-size: 1.1rem;
+            margin-left: 25px;
             color: #1B2F76;
             display: flex;
             flex-direction: column;
-            width: 15vw;
-            height: 5vw;
             justify-content: center;
 
             .time {
-                font-size: 1.1vw;
                 color: black;
-                margin-left: 0.2vw;
-                margin-top: 0.5vw;
-                font-weight: 100;
+                font-weight: 300;
             }
 
             .Richmond {
                 font-family: 'Lato', sans-serif;
-                font-size: 1vw;
-                display: flex;
-                align-items: center;
                 font-weight: 600;
 
                 .Vector {
-                    height: 1vw;
-                    width: 1vw;
-                    margin-right: 0.1vw;
+                    margin-right: 4px;
                 }
 
                 .secondVector {
-                    height: 0.5vw;
-                    width: 1vw;
-                    margin-left: 0.2vw;
+                    margin-left: 2px;
+                    height: 9px;
                 }
             }
         }
 
         .searchDiv {
-            border-radius: 1vw;
+            border-radius: 20px;
             background-color: rgba(27, 47, 118, 0.05);
-            width: 26vw;
-            height: 2.5vw;
+            width: 25%;
             display: flex;
+            height: 40px;
+            margin-left: 400px;
             align-items: center;
-            margin-left: 25vw;
+            justify-content: flex-end;
+
 
             .searchInput {
                 background: none;
-                width: 100vw;
+                width: 100%;
                 outline: none;
                 border: none;
-                border-radius: 0.3vw;
-                padding-left: 1vw;
-                font-size: 1vw;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-size: 1rem;
+
             }
 
             .searchButton {
                 border: none;
                 cursor: pointer;
                 color: #1B2F76;
-                width: 3vw;
+                width: 40px;
+                margin-right: 10px;
+                margin-left: 5px;
+                border-left: 2px solid #efefef;
                 background: none;
-                height: 1vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
 
                 .searchIcon {
-                    height: 1.5vw;
-                    width: 1.5vw;
-                    padding-right: 0.5vw;
+                    width: 18px;
                 }
-            }
-        }
 
-        .cartDiv {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            width: 5vw;
-            height: 1.5vw;
-
-            .Cart {
-                max-width: 5vw;
-                padding-left: 0.3vw;
-                height: 5vw;
             }
         }
     }
 }
+
 
 .banner {
     background-color: #1B2F76;
@@ -134,19 +108,18 @@ body {
     justify-content: center;
     align-items: center;
     transition: height 0.5s ease;
-    height: 2vw;
     position: relative;
-    font-size: 1vw;
+    font-size: 1rem;
+    height: 25px;
 
     .close-banner {
         position: absolute;
-        right: 3vw;
-        bottom: 0.4vw;
+        right: 50px;
         color: white;
         text-decoration: none;
         cursor: pointer;
         transition: color 0.1s ease;
-        font-size: 1.2vw;
+        font-size: 1.2rem;
 
         &:hover {
             color: rgb(238, 237, 237);
@@ -156,26 +129,29 @@ body {
 
 .secondHeader {
     display: flex;
-    height: 4vw;
-    border-bottom-left-radius: 2vw;
-    border-bottom-right-radius: 2vw;
+    width: 100%;
+    border-top: 1px solid rgb(238, 237, 237);
+    height: 60px;
 
     .sleepFurniture {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 50vw;
-        padding-left: 7vw;
-        font-size: 1vw;
+        width: 50%;
+        margin-left: 60px;
+        font-size: 1rem;
         font-family: 'Lato', sans-serif;
 
         .blockSleep {
-            padding-left: 3vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .a {
             text-decoration: none;
             color: inherit;
+
 
             &:hover {
                 color: rgba(27, 47, 118, 0.68);
@@ -187,13 +163,13 @@ body {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        width: 40vw;
+        width: 40%;
 
         .backToSchool,
         .clearance {
-            font-size: 1vw;
+            font-size: 1rem;
             font-weight: bold;
-            margin-right: 3vw;
+            margin-right: 45px;
             font-family: 'Lato', sans-serif;
 
             &:hover {
@@ -223,5 +199,201 @@ a {
     &:hover {
         cursor: pointer;
         transition: color 0.5s ease;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header .firstHeader .Logo {
+        min-width: 20%;
+        margin-left: 80px
+    }
+
+    .time {
+        font-size: 0.9rem;
+    }
+
+    .Richmond {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        margin-bottom: 3px;
+    }
+
+    .Vector {
+        margin-right: 5px;
+        font-size: 0.8rem;
+        width: 10px;
+    }
+
+    .secondVector {
+        margin-left: 2px;
+        width: 10px;
+    }
+
+    .header .firstHeader .searchDiv {
+        margin-left: 300px;
+    }
+
+    .header .secondHeader .sleepFurniture {
+        font-size: 0.7rem;
+    }
+
+    .header .secondHeader .schoolBlock .clearance {
+        font-size: 0.7rem;
+    }
+
+    .header .secondHeader .schoolBlock .backToSchool {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .header .secondHeader {
+        height: 40px;
+    }
+
+    .header .firstHeader {
+        height: 40px;
+    }
+
+    .header .firstHeader .Logo {
+        min-width: 15%;
+        margin-left: 80px
+    }
+
+    .time {
+        font-size: 0.6rem;
+    }
+
+    .Richmond {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 0.6rem;
+        margin-bottom: 3px;
+    }
+
+    .Vector {
+        margin-right: 2px;
+        font-size: 0.5rem;
+        width: 6px;
+    }
+
+    .secondVector {
+        margin-left: 1px;
+        width: 5px;
+    }
+
+    .header .firstHeader .searchDiv {
+        margin-left: 180px;
+        height: 20px;
+    }
+
+    .header .firstHeader .searchDiv .searchButton {
+        width: 8px;
+    }
+
+    .header .firstHeader .searchDiv .searchButton .searchIcon {
+        width: 10px;
+    }
+
+    .header .firstHeader .searchDiv .searchInput {
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+    .header .secondHeader .sleepFurniture {
+        font-size: 0.5rem;
+    }
+
+    .header .secondHeader .schoolBlock .clearance {
+        font-size: 0.5rem;
+    }
+
+    .header .secondHeader .schoolBlock .backToSchool {
+        font-size: 0.5rem;
+    }
+
+    .banner {
+        font-size: 0.7rem;
+    }
+
+    .cart {
+        width: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .secondHeader {
+        height: 30px;
+    }
+
+    .header .firstHeader {
+        height: 30px;
+    }
+
+    .header .firstHeader .Logo {
+        width: 20%;
+        margin-left: 60px
+    }
+
+    .time {
+        display: none;
+    }
+
+    .Richmond {
+        display: none;
+    }
+
+    .Vector {
+        display: none;
+    }
+
+    .secondVector {
+        display: none;
+    }
+
+    .header .firstHeader .searchDiv {
+        margin-left: 80px;
+        height: 18px;
+        width: 100%;
+    }
+
+    .header .firstHeader .searchDiv .searchButton {
+        width: 6px;
+    }
+
+    .header .firstHeader .searchDiv .searchButton .searchIcon {
+        width: 8px;
+    }
+
+    .header .firstHeader .searchDiv .searchInput {
+        height: 18px;
+        font-size: 0.4rem;
+    }
+
+    .header .secondHeader .sleepFurniture {
+        font-size: 0.4rem;
+        margin-left: 25px;
+
+    }
+
+    .header .secondHeader .schoolBlock .clearance {
+        font-size: 0.4rem;
+        margin-right: 20px;
+    }
+
+    .header .secondHeader .schoolBlock .backToSchool {
+        font-size: 0.4rem;
+        margin-right: 15px;
+
+    }
+
+    .banner {
+        font-size: 0.5rem;
+    }
+
+    .cart {
+        width: 35px;
     }
 }

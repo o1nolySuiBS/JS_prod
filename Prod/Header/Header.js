@@ -67,7 +67,7 @@ const searchDiv = createElement('div', {
 firstHeader.appendChild(searchDiv);
 
 const cart = createElement('img', {
-    className: 'Cart',
+    className: 'cart',
     src: '../svg/Cart.svg',
     alt: 'cart',
 });
@@ -81,7 +81,7 @@ const secondHeader = createElement('div', { className: 'secondHeader' });
 const sleepFurniture = createElement('div', {
     className: 'sleepFurniture',
     innerHTML: `
-        <div class="furnitureBlock"><a href="#">MATTRESSES</a></div>
+        <div class="blockSleep"><a href="#">MATTRESSES</a></div>
         <div class="blockSleep"><a href="#">ADJUSTABLE BASES</a></div>
         <div class="blockSleep"><a href="#">PILLOWS</a></div>
         <div class="blockSleep"><a href="#">BEDDING</a></div>
