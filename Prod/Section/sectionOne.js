@@ -10,6 +10,7 @@ const infoDiv = createElement('div', { className: 'infoDiv' });
 const photoSection = createElement('img', { className: 'photo', src: '../Prod/svg/photoSection.png', alt: 'photo' });
 infoDiv.appendChild(photoSection);
 
+
 const infoPhoto = createElement('div', { className: 'infoPhoto', innerHTML: `
     <h2 class="try-before-you-buy">Try before you buy</h2>
     <p class="info">
