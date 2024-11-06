@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="done ver: 2 оптимізація секцій">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/Cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/Cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/Like.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/Like.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/SearchButton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/SearchButton.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/ShopLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/ShopLogo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/Vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/VectorSecond.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/VectorSecond.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/bed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/bed.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/photoSection.png" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/photoSection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/quality.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/svg/quality.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,30 +61,30 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ihor1/IdeaProjects/ShopyProj/svg",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ihor1/IdeaProjects/ShopyProj/svg&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod\Header" />
       <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod" />
+      <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod\Header" />
       <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\svg" />
     </key>
   </component>
@@ -116,6 +109,7 @@
       <workItem from="1730624445196" duration="13000" />
       <workItem from="1730695345510" duration="7087000" />
       <workItem from="1730717931612" duration="7185000" />
+      <workItem from="1730886717349" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <option name="closed" value="true" />
@@ -173,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728712726976</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done ver: 2 оптимізація секцій">
+      <option name="closed" value="true" />
+      <created>1730884702655</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730884702655</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

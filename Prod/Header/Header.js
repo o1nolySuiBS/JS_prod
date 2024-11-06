@@ -38,7 +38,7 @@ header.appendChild(firstHeader);
 
 const logo = createElement('img', {
     className: 'Logo',
-    src: '../svg/ShopLogo.svg',
+    src: '../Prod/svg/ShopLogo.svg',
     alt: 'logo',
 });
 firstHeader.appendChild(logo);
@@ -47,8 +47,8 @@ const info = createElement('div', {
     className: 'Info',
     innerHTML: `
         <a href="https://www.google.com/maps/place/Richmond" target="_blank" class="Richmond">
-            <img class="Vector" src="../svg/Vector.svg" alt="Vector">Richmond
-            <img class="secondVector" src="../svg/VectorSecond.svg" alt="Second Vector">
+            <img class="Vector" src="../Prod/svg/Vector.svg" alt="Vector">Richmond
+            <img class="secondVector" src="../Prod/svg/VectorSecond.svg" alt="Second Vector">
         </a>
         <h8 class="time">10:00 AM - 7:00 PM</h8>
     `,
@@ -60,7 +60,7 @@ const searchDiv = createElement('div', {
     innerHTML: `
         <input type="text" class="searchInput" placeholder="Search Products">
         <button class="searchButton">
-            <img src="../svg/SearchButton.svg" alt="Search" class="searchIcon">
+            <img src="../Prod/svg/SearchButton.svg" alt="Search" class="searchIcon">
         </button>
     `,
 });
@@ -68,7 +68,7 @@ firstHeader.appendChild(searchDiv);
 
 const cart = createElement('img', {
     className: 'cart',
-    src: '../svg/Cart.svg',
+    src: '../Prod/svg/Cart.svg',
     alt: 'cart',
 });
 
