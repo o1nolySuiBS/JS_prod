@@ -1,19 +1,20 @@
 .sectionOne {
     background-color: #F4F5F8;
+    min-height: 100vh;
 
     .title {
-        height: 25vw;
+        height: 30%;
         font-family: 'Lato', sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 10vw;
+        margin-left: 100px;
         margin-bottom: 0;
 
         .comfort-test-description {
             color: #1B2F76;
-            font-size: 4vw;
-            margin-top: 5vw;
+            font-size: 3rem;
+            margin-top: 60px;
             font-weight: 300;
             margin-bottom: 0;
         }
@@ -21,7 +22,7 @@
         .comfort-test-info {
             color: #000;
             font-weight: 300;
-            font-size: 1.8vw;
+            font-size: 1.5rem;
         }
     }
 
@@ -29,58 +30,50 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-left: 4vw;
-        height: 40vw;
-
-        .photoSection {
-            border-radius: 2vw;
-            width: 42vw;
-            height: 67vw;
-        }
+        margin-left: 100px;
 
         .photo {
-            border-radius: 2vw;
-            width: 42vw;
-            height: 33vw;
-            margin-left: 5vw;
+            margin-top: 40px;
+            border-radius: 25px;
+            width: 43%;
         }
 
         .infoPhoto {
-            padding-left: 5vw;
-            height: 42vw;
+            margin-top: 40px;
+            margin-left: 80px;
             align-items: center;
-            width: 41vw;
+            width: 42%;
 
             .try-before-you-buy {
                 font-family: 'Playfair Display', serif;
                 font-style: italic;
-                font-size: 3vw;
+                font-size: 2rem;
                 font-weight: 400;
                 text-align: left;
             }
 
             .info {
                 font-family: 'Lato', sans-serif;
-                font-size: 1.1vw;
+                font-size: 1.05rem;
                 color: #000;
-                line-height: 1.8vw;
-                margin-top: 1vw;
+                line-height: 1.8rem;
+
             }
 
             .findStoreBtn {
-                width: 18vw;
-                height: 3.5vw;
-                border-radius: 3vw;
+                width: 60%;
+                height: 50px;
+                border-radius: 25px;
                 background-color: #1B2F76;
                 color: white;
                 border: none;
-                font-size: 1vw;
+                font-size: 1rem;
                 cursor: pointer;
                 transition: background-color 0.3s ease;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-top: 2vw;
+                margin-top: 40px;
 
                 &:hover {
                     background-color: #BF002D;
@@ -91,138 +84,349 @@
 }
 
 .sectionTwo {
+    margin-top: 70px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
 
     .secondTitle {
-        height: 15vw;
+        height: 120px;
+        width: 88%;
         display: flex;
-        width: 90vw;
-        padding-left: 5vw;
 
-        .why-in-store-comfort {
-            font-size: 2.5vw;
-            font-family: 'Playfair Display', serif;
-            margin-top: 5vw;
-            font-weight: 300;
-        }
+        font-size: 2.3rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: 300;
+        align-items: center
     }
 
     .durability {
         display: flex;
         justify-content: space-between;
-        width: 90vw;
-        height: 20vw;
-        margin-top: 2vw;
-        padding-left: 5vw;
+        width: 90%;
+        height: 320px;
+        margin-top: 20px;
+        padding-left: 50px;
 
         .comfortDiv {
-            width: 33vw;
-            height: 20vw;
+            width: 30%;
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
-            padding-right: 2vw;
+
 
             .like {
-                width: 4vw;
-                height: 4vw;
-                margin-bottom: 1vw;
+                width: 60px;
+                height: 60px;
+                margin-bottom: 10px;
+                /* Додайте інші стилі, якщо потрібно */
             }
 
             .comfortTitle {
                 font-family: 'Lato', sans-serif;
-                font-size: 1.4vw;
+                font-size: 1.3rem;
                 color: #1B2F76;
-                margin-top: 1vw;
-                margin-bottom: 1vw;
+                margin-top: 10px;
+                margin-bottom: 15px;
             }
 
             .by-testing-a-matters {
-                font-size: 1.1vw;
+                font-size: 1.2rem;
                 font-family: 'Lato', sans-serif;
-                line-height: 1.8vw;
+                line-height: 1.6rem;
             }
         }
 
         .supportDiv {
-            width: 33vw;
-            height: 20vw;
+            width: 30%;
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
-            padding: 0 2vw;
-            border-left: 0.1vw solid #1B2F76;
-            border-right: 0.1vw solid #1B2F76;
+            padding: 0 35px;
+            border-left: 1px solid #1B2F76;
+            border-right: 1px solid #1B2F76;
 
-            .bed {
-                width: 5vw;
-                height: 4vw;
-                margin-bottom: 1vw;
-            }
 
             .supportTitle {
                 font-family: 'Lato', sans-serif;
-                font-size: 1.4vw;
+                font-size: 1.3rem;
                 color: #1B2F76;
-                margin-top: 1vw;
-                margin-bottom: 1vw;
+                margin-top: 10px;
+                margin-bottom: 15px;
+
             }
 
-            .in-store-testing-allow {
-                font-size: 1.1vw;
-                font-family: 'Lato', sans-serif;
-                line-height: 1.8vw;
+            .bed {
+                width: 60px;
+                height: 60px;
+                margin-bottom: 10px;
             }
         }
 
-        .qualityDiv {
-            width: 33vw;
-            height: 20vw;
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            padding-left: 2vw;
-
-            .medal {
-                width: 4vw;
-                height: 4vw;
-                margin-bottom: 0.5vw;
-            }
-
-            .qualityTitle {
-                font-family: 'Lato', sans-serif;
-                font-size: 1.4vw;
-                color: #1B2F76;
-                margin-top: 1vw;
-                margin-bottom: 1vw;
-            }
-
-            .it-allows-you-to-assess {
-                font-size: 1.1vw;
-                font-family: 'Lato', sans-serif;
-                line-height: 1.8vw;
-            }
+        .in-store-testing-allow {
+            font-size: 1.2rem;
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6rem;
         }
     }
 
-    .video {
-
-    }
-
-    .sectionTwoBtn {
+    .qualityDiv {
+        width: 30%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 20px;
 
-        .button {
+        .medal {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .qualityTitle {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.3rem;
+            color: #1B2F76;
+            margin-top: 10px;
+            margin-bottom: 15px;
+
+        }
+
+        .it-allows-you-to-assess {
+            font-size: 1.2rem;
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6rem;
+        }
+    }
+}
+
+
+.sectionTwoBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button {
 
 
         &:hover {
             background-color: #BF002D;
         }
-        }
     }
+}
+
+/*ширина шрифту 0.9-0.5*/
+@media (max-width: 1440px) {
+    .sectionOne {
+        background-color: #F4F5F8;
+        min-height: 100vh;
+    }
+
+    .title {
+        height: 30%;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 100px;
+        margin-bottom: 0;
+    }
+
+    .comfort-test-description {
+        color: #1B2F76;
+        font-size: 3rem;
+        margin-top: 60px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .comfort-test-info {
+        color: #000;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+
+    .infoDiv {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 100px;
+    }
+
+    .photo {
+        margin-top: 40px;
+        border-radius: 25px;
+        width: 43%;
+    }
+
+    .infoPhoto {
+        margin-top: 40px;
+        margin-left: 80px;
+        align-items: center;
+        width: 42%;
+    }
+
+    .try-before-you-buy {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .info {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.05rem;
+        color: #000;
+        line-height: 1.8rem;
+
+    }
+
+    .findStoreBtn {
+        width: 60%;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #1B2F76;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+
+    }
+
+    .sectionTwo {
+        margin-top: 70px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .secondTitle {
+        height: 120px;
+        width: 88%;
+        display: flex;
+
+        font-size: 2.3rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: 300;
+        align-items: center
+    }
+
+    .durability {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 320px;
+        margin-top: 20px;
+        padding-left: 50px;
+    }
+
+    .comfortDiv {
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .like {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+        /* Додайте інші стилі, якщо потрібно */
+    }
+
+    .comfortTitle {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        color: #1B2F76;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .by-testing-a-matters {
+        font-size: 1.2rem;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.6rem;
+    }
+
+
+    .supportDiv {
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0 35px;
+        border-left: 1px solid #1B2F76;
+        border-right: 1px solid #1B2F76;
+
+    }
+
+    .supportTitle {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        color: #1B2F76;
+        margin-top: 10px;
+        margin-bottom: 15px;
+
+    }
+
+    .bed {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .in-store-testing-allow {
+        font-size: 1.2rem;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.6rem;
+    }
+
+    .qualityDiv {
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .medal {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .qualityTitle {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        color: #1B2F76;
+        margin-top: 10px;
+        margin-bottom: 15px;
+
+    }
+
+    .it-allows-you-to-assess {
+        font-size: 1.2rem;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.6rem;
+    }
+
+
+    .sectionTwoBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

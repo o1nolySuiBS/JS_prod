@@ -1,7 +1,7 @@
 const sectionOne = createElement('section', { className: 'sectionOne' });
 
-const title = createElement('div', { className: 'title', innerHTML: `
-    <h1 class="comfort-test-description">Free In-Store Comfort Test</h1>
+const title = createElement('span', { className: 'title', innerHTML: `
+    <strong class="comfort-test-description">Free In-Store Comfort Test</strong>
     <p class="comfort-test-info">Visit one of our stores for a free, personalized, expert-guided comfort test.</p>
 ` });
 
@@ -31,7 +31,7 @@ document.body.appendChild(sectionOne);
 
 const sectionTwo = createElement('section', { className: 'sectionTwo' });
 
-const secondTitle = createElement('div', { className: 'secondTitle', innerHTML: '<h1 class="why-in-store-comfort">Why in-store comfort testing is essential</h1>' });
+const secondTitle = createElement('span', { className: 'secondTitle', innerHTML: 'Why in-store comfort testing is essential' });
 
 const durability = createElement('div', { className: 'durability' });
 
@@ -64,8 +64,8 @@ const qualityDiv = createElement('div', { className: 'qualityDiv', innerHTML: `
 
 durability.append(comfortDiv, supportDiv, qualityDiv);
 
-const video = createElement('div');
 
-sectionTwo.append(secondTitle, durability, video);
+
+sectionTwo.append(secondTitle, durability);
 document.body.appendChild(sectionTwo);
 
