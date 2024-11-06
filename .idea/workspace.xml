@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0175ee-9600-4d03-96da-c2a3ab6c4cd8" name="Changes" comment="done ver: 2 оптимізація секцій">
+      <change afterPath="$PROJECT_DIR$/svg/Like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/bed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/photoSection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/quality.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/Header/Header.Module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.Module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/Section/sectionOne.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/Cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/Cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/SearchButton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/SearchButton.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/ShopLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/ShopLogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/Vector.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/VectorSecond.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/VectorSecond.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,17 +38,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="&amp;" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "o1nolySuiBS"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;o1nolySuiBS&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -67,7 +78,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;secondTry&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ihor1/IdeaProjects/ShopyProj/svg&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -78,6 +90,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\svg" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod\Header" />
       <recent name="C:\Users\ihor1\IdeaProjects\ShopyProj\Prod" />
@@ -95,6 +110,16 @@
       <workItem from="1728539057656" duration="1912000" />
       <workItem from="1728541001612" duration="16307000" />
       <workItem from="1728575499623" duration="7261000" />
+      <workItem from="1728804439410" duration="1153000" />
+      <workItem from="1729178844515" duration="54000" />
+      <workItem from="1729467109901" duration="5425000" />
+      <workItem from="1729894283922" duration="7000" />
+      <workItem from="1730417998625" duration="115000" />
+      <workItem from="1730454565592" duration="5000" />
+      <workItem from="1730547650786" duration="6092000" />
+      <workItem from="1730624445196" duration="13000" />
+      <workItem from="1730695345510" duration="7087000" />
+      <workItem from="1730717931612" duration="7185000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <option name="closed" value="true" />
